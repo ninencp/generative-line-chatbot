@@ -25,7 +25,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 
 @app.get('/')
-async def geeting():
+async def greeting():
     return "Hello from Backend 🙋‍♂️"
 
 
